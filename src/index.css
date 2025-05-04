@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+
+* {
+     
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+  }
+
+
+
+
+  .my-text {
+  font-size: 1.9rem; /* base: text-2xl */
+
+  font-weight: 900; /* font-black */
+
+  background: linear-gradient(to right, #71717a, #ffffff, #71717a); /* from-zinc-500 via-white to-zinc-500 */
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .my-text {
+    font-size: 1.875rem; /* sm:text-3xl */
+  }
+}
+
+@media (min-width: 768px) {
+  .my-text {
+    font-size: 2.25rem; /* md:text-4xl */
+  }
+}
+
+@media (min-width: 1024px) {
+  .my-text {
+    font-size: 2.25rem; /* lg:text-4xl */
+  }
+}
+
+ 
