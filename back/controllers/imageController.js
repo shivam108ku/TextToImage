@@ -8,7 +8,7 @@ const BLOCKED_WORDS = new Set([
 ]);
 
 // Base URL for the API
-const FLUX_API_URL = "https://flux-api-4-custom-models-100-style.p.rapidapi.com/create-v2";
+const FLUX_API_URL = "https://flux-api-4-custom-models-100-style.p.rapidapi.com/create-v1";
 
 export const generateImage = async (req, res) => {
   try {
